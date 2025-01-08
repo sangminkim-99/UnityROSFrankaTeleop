@@ -1,0 +1,214 @@
+{
+    "name": "CustomControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "21cdbf97-092b-4b57-8537-aa1a964abf2f",
+            "actions": [
+                {
+                    "name": "LeftTouch",
+                    "type": "Value",
+                    "id": "3571841d-62d9-4e2e-aab9-b53e557388be",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightTouch",
+                    "type": "Value",
+                    "id": "4edec473-d11a-427a-9c19-73daa138dc78",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftMenu",
+                    "type": "Value",
+                    "id": "24c24c7e-c0ea-4ac1-bb44-633ad85f298e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightMenu",
+                    "type": "Value",
+                    "id": "a61c8cd8-7157-4f07-b20b-0b69033434b6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftGrip",
+                    "type": "Value",
+                    "id": "700693c0-e18c-4d72-b7bc-05d594b3a441",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftConnect",
+                    "type": "Value",
+                    "id": "3b4b5e33-b8f1-4e83-9062-5cbc0592b1cb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightGrip",
+                    "type": "Value",
+                    "id": "63534266-0887-4226-a4eb-8369a6aab8b6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightConnect",
+                    "type": "Value",
+                    "id": "d0cfdce0-eb25-4863-b978-21acaa5ce342",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftTouchClick",
+                    "type": "Value",
+                    "id": "779d42fe-2596-43ec-9a0a-8302ec243755",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightTouchClick",
+                    "type": "Value",
+                    "id": "afb30398-9abd-4c17-8665-72bb88748633",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ee27c692-64f9-4830-825a-122fe3ff7fa3",
+                    "path": "<XRController>{LeftHand}/trackpadTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9c43988-1afd-49a0-9e46-bd14699f3eb5",
+                    "path": "<XRController>{RightHand}/touchpadTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8391c365-11bb-4dc1-8768-005d4bebd358",
+                    "path": "<XRController>{LeftHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "99793be9-937c-493e-ad33-e998af5018a5",
+                    "path": "<XRController>{RightHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9aaa1aa7-f135-484a-8c74-dc55e23a6689",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24e9f1bc-c5a3-4a49-a36c-f6b4b7875183",
+                    "path": "<XRInputV1::OpenXR::HeadTrackingOpenXR>/userpresence",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftConnect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9282ca12-a43b-400e-9a59-6315fe3743d1",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e6626c8f-8019-4ed9-b33a-c46d656e0346",
+                    "path": "<XRInputV1::OpenXR::HeadTrackingOpenXR>/userpresence",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightConnect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62ab5099-1876-442b-998b-75ef0aa7659a",
+                    "path": "<XRController>{LeftHand}/trackpadClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTouchClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d5154f4-eb69-4ef8-83ef-9e88dfe9f434",
+                    "path": "<XRController>{RightHand}/trackpadClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTouchClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
